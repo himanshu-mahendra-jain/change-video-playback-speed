@@ -1,6 +1,6 @@
 # Change Video Playback Speed
 
-A lightweight Chrome extension for quickly changing video and audio playback speed with a toolbar click or keyboard shortcut.
+A lightweight extension for quickly changing video and audio playback speed with a toolbar click or keyboard shortcut.
 
 The extension is designed to be simple, fast, private, and predictable. It has no popup, no floating controller, no settings page, no analytics, and no broad website access.
 
@@ -58,7 +58,7 @@ Default shortcuts:
 
 The keyboard shortcut performs exactly the same action as clicking the extension icon.
 
-Users can change the shortcut at any time through Chrome's extension keyboard shortcut settings.
+Users can change the shortcut at any time through browser's extension keyboard shortcut settings.
 
 ## Project Structure
 

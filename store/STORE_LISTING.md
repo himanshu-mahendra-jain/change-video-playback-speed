@@ -23,7 +23,7 @@ DEFAULT KEYBOARD SHORTCUTS
 
 CHANGE THE KEYBOARD SHORTCUT
 
-1. Open Chrome and go to Extensions → Manage Extensions.
+1. Open Browser and go to Extensions → Manage Extensions.
 2. Open the Extensions menu and select Keyboard shortcuts.
 3. Find Change Video Playback Speed and enter your preferred shortcut.
 
