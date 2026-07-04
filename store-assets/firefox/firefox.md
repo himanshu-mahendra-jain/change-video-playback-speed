@@ -2,7 +2,7 @@ Change video and audio playback speed with one click or a keyboard shortcut.
 
 Change Video Playback Speed is a lightweight, open-source extension that cycles through four useful playback speeds:
 
-1x → 1.25x → 1.5x → 2x → 1x
+1x → 1.2x → 1.5x → 2x → 1x
 
 Click the extension icon or use the keyboard shortcut to move to the next speed. The selected speed is applied to video and audio on the page, including supported embedded players.
 
@@ -18,14 +18,15 @@ KEY FEATURES
 
 DEFAULT KEYBOARD SHORTCUTS
 
-• Windows, Linux, and ChromeOS: Alt+S
+• Windows and Linux: Ctrl+Shift+Period
 • macOS: Command+Shift+Period
 
 CHANGE THE KEYBOARD SHORTCUT
 
-1. Open Browser and go to Extensions → Manage Extensions.
-2. Open the Extensions menu and select Keyboard shortcuts.
-3. Find Change Video Playback Speed and enter your preferred shortcut.
+1. Open the Firefox menu and select Add-ons and themes.
+2. Click the gear icon on the Extensions page.
+3. Select Manage Extension Shortcuts.
+4. Find Change Video Playback Speed and enter your preferred shortcut.
 
 PRIVACY
 
@@ -38,6 +39,8 @@ All playback-speed changes happen locally in your browser.
 
 OPEN SOURCE
 
-Change Video Playback Speed is open source. View the source code, report issues, or contribute on GitHub:
+Change Video Playback Speed is open source and licensed under the GNU General Public License v3.0 (GPLv3).
+
+View the source code, report issues, or contribute on GitHub:
 
 https://github.com/himanshu-mahendra-jain/change-video-playback-speed

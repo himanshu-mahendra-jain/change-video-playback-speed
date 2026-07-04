@@ -44,7 +44,7 @@ export function getMediaState() {
 export function applyPlaybackSpeed(speed) {
     const ALLOWED_SPEEDS = Object.freeze([
         1,
-        1.25,
+        1.2,
         1.5,
         2
     ]);

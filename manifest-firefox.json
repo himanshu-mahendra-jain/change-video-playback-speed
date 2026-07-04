@@ -8,7 +8,9 @@
         "scripting"
     ],
     "background": {
-        "service_worker": "src/background.js",
+        "scripts": [
+            "src/background.js"
+        ],
         "type": "module"
     },
     "action": {
@@ -20,12 +22,21 @@
     "commands": {
         "change-playback-speed": {
             "suggested_key": {
-                "windows": "Alt+S",
-                "linux": "Alt+S",
-                "chromeos": "Alt+S",
+                "windows": "Ctrl+Shift+Period",
+                "linux": "Ctrl+Shift+Period",
                 "mac": "Command+Shift+Period"
             },
             "description": "Change video playback speed"
+        }
+    },
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "change-video-playback-speed@himanshu-mahendra-jain",
+            "data_collection_permissions": {
+                "required": [
+                    "none"
+                ]
+            }
         }
     }
 }
