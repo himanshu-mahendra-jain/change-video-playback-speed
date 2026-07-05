@@ -23,8 +23,9 @@ fi
 for path in \
     "$CHROMIUM_MANIFEST" \
     "$FIREFOX_MANIFEST" \
-    "src" \
-    "icons"
+    "icons" \
+    "options" \
+    "src"
 do
     if [ ! -e "$path" ]; then
         echo "Error: $path not found."
@@ -101,15 +102,23 @@ mkdir -p \
 
 # Prepare Chromium package files.
 cp "$CHROMIUM_MANIFEST" "$CHROMIUM_STAGE/manifest.json"
-cp -R "src" "$CHROMIUM_STAGE/src"
 cp -R "icons" "$CHROMIUM_STAGE/icons"
 
+if [ ! -f "options/placeholder" ]; then
+cp -R "options" "$CHROMIUM_STAGE/options"
+fi
+
+cp -R "src" "$CHROMIUM_STAGE/src"
 
 # Prepare Firefox package files.
 cp "$FIREFOX_MANIFEST" "$FIREFOX_STAGE/manifest.json"
-cp -R "src" "$FIREFOX_STAGE/src"
 cp -R "icons" "$FIREFOX_STAGE/icons"
 
+if [ ! -f "options/placeholder" ]; then
+cp -R "options" "$FIREFOX_STAGE/options"
+fi
+
+cp -R "src" "$FIREFOX_STAGE/src"
 
 # Create Chrome package.
 (
