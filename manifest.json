@@ -1,15 +1,10 @@
 {
     "manifest_version": 3,
     "name": "Change Video Playback Speed",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Quickly change video and audio playback speed between 1x, 1.2x, 1.5x, and 2x.",
-    "permissions": [
-        "activeTab",
-        "scripting"
-    ],
-    "background": {
-        "service_worker": "src/background.js",
-        "type": "module"
+    "icons": {
+        "128": "icons/icon128.png"
     },
     "action": {
         "default_title": "Change Video Playback Speed",
@@ -27,5 +22,13 @@
             },
             "description": "Change video playback speed"
         }
+    },
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "background": {
+        "service_worker": "src/background.js",
+        "type": "module"
     }
 }

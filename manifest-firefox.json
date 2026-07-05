@@ -1,17 +1,20 @@
 {
     "manifest_version": 3,
     "name": "Change Video Playback Speed",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Quickly change video and audio playback speed between 1x, 1.2x, 1.5x, and 2x.",
-    "permissions": [
-        "activeTab",
-        "scripting"
-    ],
-    "background": {
-        "scripts": [
-            "src/background.js"
-        ],
-        "type": "module"
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "change-video-playback-speed@himanshu-mahendra-jain",
+            "data_collection_permissions": {
+                "required": [
+                    "none"
+                ]
+            }
+        }
+    },
+    "icons": {
+        "128": "icons/icon128.png"
     },
     "action": {
         "default_title": "Change Video Playback Speed",
@@ -29,14 +32,14 @@
             "description": "Change video playback speed"
         }
     },
-    "browser_specific_settings": {
-        "gecko": {
-            "id": "change-video-playback-speed@himanshu-mahendra-jain",
-            "data_collection_permissions": {
-                "required": [
-                    "none"
-                ]
-            }
-        }
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "background": {
+        "scripts": [
+            "src/background.js"
+        ],
+        "type": "module"
     }
 }
